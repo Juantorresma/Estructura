@@ -1,1 +1,1 @@
-# Estructura
+# Estructura is a program which lets the user add numbers to a linked list and shows the median of the numbers. To run it you need to clases, the Estructura class which contains the main class, and the ListaEnlazada, whichi contains the linked list atributes. It does not have Memory or CPU issues and it runs in a linear order. O(n).
