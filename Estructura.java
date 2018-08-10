@@ -22,6 +22,7 @@ public class Estructura {
 	}
 
 	public static void main(String[] args) {
+		long inicio =System.currentTimeMillis();
 		int b = 0;
 		Estructura estructura = new Estructura();
 		while (b==0) {
@@ -44,6 +45,7 @@ public class Estructura {
 				b=0;
 				break;
 			case 3: 
+				System.out.println("Time elapsed = "+ (System.currentTimeMillis()-inicio)+" miliseconds");
 				break;
 			}
 
